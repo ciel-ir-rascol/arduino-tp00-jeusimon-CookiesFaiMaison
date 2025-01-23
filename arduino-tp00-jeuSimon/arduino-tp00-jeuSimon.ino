@@ -37,8 +37,12 @@ void affichage(){
   for (int i=0; i<4; i++){
     if(tirage[i] == 0){
       Serial.print("V");
+      digitalWrite(LED_V, HIGH);             // la led 1 s'allume*
+      delay(1000);
     } else {
       Serial.print("R");
+      digitalWrite(LED_R, HIGH);             // la led 1 s'allume*
+      delay(1000);
     }
   }
 }
