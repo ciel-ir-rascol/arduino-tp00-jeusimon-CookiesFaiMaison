@@ -90,5 +90,9 @@ void loop()
       Serial.print("Vrai");
     }
     start = true;
+    compte = 0;
+    for (int i = 0; i<4; i++){
+      joueur[i] = 5;
   }
   }
+}
