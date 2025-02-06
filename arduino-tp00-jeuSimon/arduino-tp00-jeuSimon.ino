@@ -63,7 +63,7 @@ void loop()
     
     else (etatBoutonR == LOW);           // si le bouton a un niveau logique différent de HIGH
     {
-      digitalWrite(LED_R, LOW);             // la led 1 s'allume
+      digitalWrite(LED_R, LOW);             // la led rouge s'allume
     }
 
     if (etatBoutonB == HIGH)              // test si le bouton a un niveau logique haut
